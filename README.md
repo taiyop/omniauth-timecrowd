@@ -1,5 +1,8 @@
 # Omniauth::Timecrowd
 
+[![Code Climate](https://codeclimate.com/github/ruffnote/omniauth-timecrowd/badges/gpa.svg)](https://codeclimate.com/github/ruffnote/omniauth-timecrowd)
+[![Test Coverage](https://codeclimate.com/github/ruffnote/omniauth-timecrowd/badges/coverage.svg)](https://codeclimate.com/github/ruffnote/omniauth-timecrowd/coverage)
+
 ## API Document
 
 https://timecrowd.net/apidoc
