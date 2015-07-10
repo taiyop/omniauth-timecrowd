@@ -1,7 +1,7 @@
 require "omniauth/timecrowd/version"
+require 'omniauth/strategies/timecrowd'
 
 module Omniauth
   module Timecrowd
-    # Your code goes here...
   end
 end
