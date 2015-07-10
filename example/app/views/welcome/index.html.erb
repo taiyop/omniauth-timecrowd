@@ -1,0 +1,15 @@
+<% if @signed_in %>
+  <p>
+    <%= image_tag @image, size: '24x24' %>
+    <%= @nickname %>
+  </p>
+
+  <ul>
+    <% @teams.each do |team| %>
+      <li><%= link_to team['name'], "#{ENV['TIMECROWD_SITE']}/teams/#{team['id']}", target: '_blank' %></li>
+    <% end %>
+  </ul>
+<% else %>
+  <%= link_to 'Sign in', '/auth/timecrowd' %>
+<% end %>
+
