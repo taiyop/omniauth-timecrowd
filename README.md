@@ -12,7 +12,7 @@ https://timecrowd.net/apidoc
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'omniauth-timecrowd', github: ruffnote/omniauth-timecrowd'
+gem 'omniauth-timecrowd', github: 'ruffnote/omniauth-timecrowd'
 ```
 
 And then execute:
