@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Official OmniAuth strategy for TimeCrowd.}
   spec.description   = %q{Official OmniAuth strategy for TimeCrowd.}
-  spec.homepage      = "https://github.com/ruffnote/timecrowd"
+  spec.homepage      = "https://github.com/ruffnote/omniauth-timecrowd"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
