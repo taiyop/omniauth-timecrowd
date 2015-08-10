@@ -4,7 +4,7 @@ module OmniAuth
   module Strategies
     class TimeCrowd < OmniAuth::Strategies::OAuth2
       option :client_options, {
-        site: 'https://timecrowd.net',
+        site: 'https://api.timecrowd.net',
         authorize_url: '/oauth/authorize',
         token_url: '/oauth/token',
       }

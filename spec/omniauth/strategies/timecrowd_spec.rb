@@ -30,7 +30,7 @@ describe OmniAuth::Strategies::TimeCrowd do
 
   context "client options" do
     it 'should have correct site' do
-      subject.options.client_options.site.should eq("https://timecrowd.net")
+      subject.options.client_options.site.should eq("https://api.timecrowd.net")
     end
 
     it 'should have correct authorize url' do
